@@ -49,7 +49,7 @@
     - E. false, true will be coverted to 1 and 1 does not equal 2
     - F. true, 2 will be converted to true and true == true.
 15.  == will allow type conversion to check. === doesn't allow type conversion.
-
+16. image
 17.  First we run line 13 which calls the function modifyArray and takes the parameters of an array [1,2,3] and the function doSomething. Now we go the the function modifyArray which will create a new empty array 'B'. The for loop will iterate 3 times and everytime we will be accessing the value of the array 'A' and passing it to the callback function which is actually the doSomething function. This will return the input multiplied by 2 and push that new number to array 'B'. Once it exit the loop, the function will return array 'B', returning the result of [2,4,6].
-
+18. image
 19.  The output will be 1, 4, 3, 2 because there is a time delay set for when the program prints 2 and 3.
