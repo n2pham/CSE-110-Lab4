@@ -34,7 +34,7 @@
     - E. student.courseLoad[0]
 
 ### Basic Operators & Type Conversion
-1.  - A. '32', this will turn 2 to a string and concatenate the strings
+13.  - A. '32', this will turn 2 to a string and concatenate the strings
     - B. 1, this will turn '3' to a math value and 3-2=1
     - C. 3, null will be converted to 0
     - D. 3null, null will be converted to a string and concatenate
@@ -42,14 +42,14 @@
     - F. 0, both false and null will be converted to 0
     - G. 3undefined, undefined will be converted to a string
     - H. NaN, because "3" will be converted to an integer and undefined will be - converted to NaN. 
-2.  - A. true, '2' will be converted to an integer and check 2 > 1
+14.  - A. true, '2' will be converted to an integer and check 2 > 1
     - B. false, '2' and '12' is compared as a string format. '2' has a smaller length of string than '12' meaning it is greater.
     - C. true, '2' will be converted to an integer.
     - D. false, === does not allow conversion which will make this false
     - E. false, true will be coverted to 1 and 1 does not equal 2
     - F. true, 2 will be converted to true and true == true.
-3.  == will allow type conversion to check. === doesn't allow type conversion.
+15.  == will allow type conversion to check. === doesn't allow type conversion.
 
-4.  First we run line 13 which calls the function modifyArray and takes the parameters of an array [1,2,3] and the function doSomething. Now we go the the function modifyArray which will create a new empty array 'B'. The for loop will iterate 3 times and everytime we will be accessing the value of the array 'A' and passing it to the callback function which is actually the doSomething function. This will return the input multiplied by 2 and push that new number to array 'B'. Once it exit the loop, the function will return array 'B', returning the result of [2,4,6].
+17.  First we run line 13 which calls the function modifyArray and takes the parameters of an array [1,2,3] and the function doSomething. Now we go the the function modifyArray which will create a new empty array 'B'. The for loop will iterate 3 times and everytime we will be accessing the value of the array 'A' and passing it to the callback function which is actually the doSomething function. This will return the input multiplied by 2 and push that new number to array 'B'. Once it exit the loop, the function will return array 'B', returning the result of [2,4,6].
 
-5.  The output will be 1, 4, 3, 2 because there is a time delay set for when the program prints 2 and 3.
+19.  The output will be 1, 4, 3, 2 because there is a time delay set for when the program prints 2 and 3.
